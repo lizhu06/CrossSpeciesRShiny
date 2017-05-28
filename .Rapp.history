@@ -1,0 +1,5 @@
+rm(list=ls())#
+setwd("/Users/lizhu/Box Sync/Genomics_new (LIZ86@pitt.edu)/CrossSpecies")#
+library(shiny)#
+library(shinyjs)#
+shiny::runApp('RshinyCS_V3', port=9987, launch.browser=T)
